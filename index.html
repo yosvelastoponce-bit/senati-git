@@ -4,15 +4,53 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        .container {
+            background-color: rgb(172, 248, 242);
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+        .titulo-grande {
+            font-size: 36px;
+            color: red;
+            text-align: center;
+        }
+        .tabla {
+            border-collapse: collapse;
+            width: 100%;
+            background-color: aquamarine;
+        }
+        .lista {
+            list-style-type: square;
+            background-color: rgb(255, 255, 255);
+        }
+    </style> 
 </head>
 <body>
-    <h1>Tecnologias que aprenderemos</h1>
-    <ul>
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>JavaScript</li>
-        <li>React</li>
-        <li>Node.js</li>
-    </ul>
+    <h1 class="titulo-grande">TITULO DE LA PAGINA</h1>
+    <div class="container">
+        <h1 style="color: green;">Tecnologias que aprenderemos</h1>
+        <ul style="color: rgb(194, 191, 0);" class="lista">
+            <li>HTML</li>
+            <li>CSS</li> 
+            <li>JavaScript</li>
+            <li>React</li>
+            <li>Node.js</li>
+        </ul>
+        <h2 style="color: blue;">Lista de animales</h2>
+        <ul style="color: rgb(0, 189, 196);" class="lista">
+            <li>PERRO</li>
+            <li>GATO</li>
+            <li>PEZ</li>
+        </ul>
+    </div>
+    <div class="container">
+        <h2>Este es un agregado</h2>
+    </div>
+
+    <tr class="tabla">
+        <td>Celda 1</td>
+        <td>Celda 2</td>
+    </tr>
 </body>
 </html>
